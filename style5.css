@@ -1,0 +1,19 @@
+body {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    font-family: 'Jost', sans-serif;
+}
+.button {
+    background:    #3d85c6;
+    border-radius: 11px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 18px/1 "Open Sans", sans-serif;
+    text-align:    center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
