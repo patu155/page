@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    height: 50px;
+    background: blueviolet;
+}
+
+nav { 
+    height: 600px;
+    width: 25%;
+    float: left;
+    background: hotpink;
+}
+
+main { 
+    height: 600px;
+    width: 75%;
+    float: left;
+    background: plum;
+}
+
+footer {
+    clear: both;
+    background: violet;
+}
