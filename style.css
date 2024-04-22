@@ -1,48 +1,77 @@
-body
-{
-	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-    font-family: 'Alkatra', cursive;
-    font-family: 'Poppins', sans-serif;
-	font-size: 20px;
-	color: #efefef;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.Main
-{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1000px;
-	text-align: center;
-	padding: 0;
-	margin-bottom: 25px;
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.Text
-{
-    font-size: 12px;
-	font-weight: 400;
-    text-align: center;
+@font-face {
+    font-family: 'Allenoire Font';
+    src: local('Allenoire Font'), url('Allenoire Font.otf') format('opentype');
 }
 
-.button{
-    background: linear-gradient(to right,#ffffff ,#ebebeb);
-    background-color: #ffffff;
-    color: #000000;
-    font-family: Trebuchet MS;
-    font-size: 26px;
-    font-weight: 800;
-    font-style: normal;
-    text-decoration: none;
-    padding: 14px 15px;
-    border: 0px solid #000;
+header {
+    height: 25%;
+    background-color: #7353BA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Allenoire Font';
+}
+
+nav { 
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FAA6FF;
+    padding: 0px 150px;
+}
+
+a {
+    font-size: 25px;
+    font-family: 'Allenoire Font';
+    color: aliceblue;
+    background-color: #EFC3F5;
     border-radius: 10px;
-    display: inline-block;
-    box-shadow: 0px 0px 10px 0px #2D2D2D;
-   }
-   .button:hover{
-    background: linear-gradient(to right,#ffffff ,#ededed);
-    background-color: #ffffff;
-   }
-   .button:active{
-    transform: scale(0.95);
-   }
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    border: 5px solid #8A6DC5;
+}
+
+main {
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8A6DC5;
+}
+
+footer {
+    height: 10%;
+    background-color: #F985FF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 150px;
+    gap: 20px;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Allenoire Font';
+    color: aliceblue;
+}

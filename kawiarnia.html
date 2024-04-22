@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawiarnia MORS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>kawiarnia mors</h1>
+    </header>
+    <nav>
+        <a href="oferta.txt" id="button">Oferta</a>
+    </nav>
+    <main>
+        <img src="tort.png" alt="tort">
+    </main>
+    <footer>
+        <p>tel: 745 180 631</p>
+        <p>email:mors@wp.pl</p>
+    </footer>
+    <script>
+        let button = document.getElementById("button")
+        button.onmouseover = function (event) {
+            console.log("mouse over")
+            let file_link = button.getAttribute("href")
+            window.open(file_link, "_blank")
+        }
+
+    </script>
+</body>
+</html>
