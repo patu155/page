@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Righteous;
+  background-color: #c2baff;
+}
+
+header {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #bca2ff;
+  color: white
+}
+.galeria {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.produkt img {
+  width: 25vw;
+  height: 25vh;
+  border: solid 10px;
+  border-color: white;
+  border-radius: 25px;
+}
+
+.produkt {
+  display: flex;
+  flex-direction: column;
+}
+
+.koszyk-button {
+  margin-top: 10px;
+  width: 25vw;
+  height: 5vh;
+  border-radius: 25px;
+  font-family: Righteous;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+nav {
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #8768df;
+}
+
+a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  background-color: #8768df;
+  color: white;
+}

@@ -1,0 +1,40 @@
+body {
+  font-family: "DM Sans";
+}
+form {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  font-family: "DM Sans";
+  float: left;
+  width: 40%;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "DM Sans";
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #8768df;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "DM Sans";
+}
+
+h2 {
+  padding: 20px;
+}
+
+p {
+  margin-top: -5vh;
+}

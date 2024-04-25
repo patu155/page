@@ -1,0 +1,65 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikrofalówki zamówienie to twoje marzenie</title>
+  <link rel="stylesheet" href="style_zamow.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <form>
+    <label for="imie">Imię:</label>
+    <input type="text" id="imie" name="imie"><br><br>
+
+    <label for="model">Model mikrofalówki:</label>
+    <select id="model" name="model">
+      <option value="model1">Amica szybsza od piździka</option>
+      <option value="model2">Beko co nie jest eko</option>
+      <option value="model3">Bosh, że oh my gosh</option>
+      <option value="model3">Eldżi tysionc</option>
+      <option value="model3">Mikrofela aniela</option>
+      <option value="model3">Turboobracarka jarka</option>
+    </select><br><br>
+
+    <label for="predkosc">Jak szybko ma się kręcić? (1-10km/s)</label>
+    <input type="range" id="predkosc" name="predkosc" min="1" max="10"><br><br>
+
+    <label for="telefon">Numer telefonu:</label>
+    <input type="tel" id="telefon" name="telefon" pattern="[0-9]{9}"><br><br>
+
+    <label for="pesel">PESEL:</label>
+    <input type="text" id="pesel" name="pesel" pattern="\d{11}"><br><br>
+
+    <label for="adres">Adres dostawy:</label>
+    <input type="text" id="adres" name="adres" list="adresy"><br><br>
+    <datalist id="adresy">
+      <option value="Katowice">
+      <option value="Gródków">
+      <option value="Chorzów">
+      <option value="Jerozolima">
+      <option value="Śmiardowo Krajeńskie">
+    </datalist>
+
+    <input type="submit" value="Zamów" onclick="brawo1()">
+  </form>
+
+  <div class="wrapper1">
+    <h2>Siedziba firmy:</h2>
+    <p><a href="https://maps.app.goo.gl/LubcDJqBrrZy9oJX8">Mikrofalówkowa 123,</a><br>
+      30-555 Mikrofalów Wielki,<br>
+      Polska</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624107.0457912117!2d15.663585178124999!3d52.335631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045011583439f7%3A0xe42d34d40d68c0eb!2sNaprawa%20mikrofal%C3%B3wek!5e0!3m2!1spl!2spl!4v1714058652417!5m2!1spl!2spl"
+      width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <script>
+    const brawo1 = () => {
+      alert("MIKROFALÓWKA WYSŁANA!!!!!!!!!!");
+    }
+  </script>
+</body>
