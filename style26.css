@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 150px;
+    background-color: #c8b6ff;
+    color: #fff0f3;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border: 5px solid #ffccd5;
+    text-shadow: #ffccd5 5px 5px 15px;
+}
