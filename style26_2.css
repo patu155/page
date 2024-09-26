@@ -1,0 +1,19 @@
+#text {
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.rzeczownik {
+    color: deepskyblue;
+    font-weight: bold;
+}
+
+.czasownik {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.przymiotnik {
+    color: red;
+    font-style: italic;
+}
